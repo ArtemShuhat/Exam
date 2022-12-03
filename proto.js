@@ -95,13 +95,9 @@ window.onload = function () {
   let steak = document.getElementById("steak");
   let boiledFish = document.getElementById("boiled_fish");
   let borsch = document.getElementById("borsch");
-  // let stop2 = document.getElementById("stop2");
-  // let info2 = document.getElementById("info2");
-
-  // let machine = new Machine(info);
+  
   let coffeeMachine = new CofeeMachine(info);
 
-  /* Listen to click button events */
   latte.addEventListener("click", function () {
     coffeeMachine.run("latte");
   });
