@@ -81,9 +81,7 @@ window.onload = function () {
     }
   };
 
-  /* Create mashine */
-
-  /* Buttons */
+  // Buttons
   let info = document.getElementById("info");
   let stop = document.getElementById("stop");
   let latte = document.getElementById("latte");
@@ -120,7 +118,6 @@ window.onload = function () {
 
   function Multivare(info) {
     this.food = "Нічого";
-    //Machine.apply(this);
     Machine.call(this, info);
   }
 
